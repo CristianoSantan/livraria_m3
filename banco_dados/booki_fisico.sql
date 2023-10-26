@@ -38,7 +38,8 @@ where c.id_livro = l.id_livro and c.id_usuario = u.id_usuario;
 insert into Usuarios (nome_usuario, email_usuario, senha_usuario) values 
 ('Denise', 'denise@email', '123'),
 ('Adrian', 'adrian@email', '456'),
-('Patricia', 'patricia@email', '789');
+('Patricia', 'patricia@email', '789'),
+('David', 'david@email', '987');
 
 insert into Livros (nome_livro, autor_livro, editora_livro, preco_livro) values 
 ('A Arte da Guerra', 'Sun Tzu', 'rocco', 49.9),
